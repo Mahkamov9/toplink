@@ -7,7 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+  @font-face {
+    font-family: "Clarika Geometric Regular";
+    src: url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.eot");
+    src: url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d3148d46b600396e298caa894207c0b3.svg#Clarika Geometric Regular")format("svg");
+  }
+
 }
+
+
+
+a{
+  text-decoration: none;
+}
+
+ul , ol{
+  list-style: none;
+}
+
+.container{
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+

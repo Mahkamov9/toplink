@@ -1,0 +1,21 @@
+.navbar{
+    height: 76px;
+    background-color: #F7F7FF;
+
+}
+
+.nav-list{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-link{
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 30px;
+    color: #182F43;
+}
+
