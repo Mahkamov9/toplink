@@ -1,21 +1,70 @@
 .navbar{
-    height: 76px;
-    background-color: #F7F7FF;
+    background-color: #e8e9f1;
+    padding: 20px 0px;
 
 }
 
 .nav-list{
-    padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
+.nav-link-box{
+    display: flex;
 
+}
 
 .nav-link{
     display: inline-block;
-    padding-top: 10px;
     margin-right: 30px;
     color: #182F43;
+    padding: 10px;
+    border: none;
+    transition: 0.1s;
+    border-radius: 8px;
 }
 
+/* .nav-link1:hover{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    border-radius: 8px;
+    padding: 10px;
+    color: #673AB7;
+}
+
+.nav-link2:hover{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    border-radius: 8px;
+    padding: 10px;
+    color: #673AB7;
+} */
+
+.nav-link3{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    border-radius: 8px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #673AB7;
+}
+
+.nav-link3:hover{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    border-radius: 8px;
+    padding: 10px;
+    color: #673AB7;
+    background-color: #fff;
+}
+
+.nav-link4{
+    border: 2px solid #673AB7;
+}
+
+.nav-link4:hover{
+    border: 2px solid #673AB7;
+    background-color: #673AB7;
+    color: #ffff;
+}

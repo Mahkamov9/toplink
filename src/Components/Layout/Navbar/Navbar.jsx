@@ -15,10 +15,12 @@ export default function Navbar() {
                         <NavLink to={"/"} ><img src={NavLogo} alt="Logo" /></NavLink>
                     </div>
                     <div className="nav-item">
-                        <NavLink to={"/work"}>U qanday ishlaydi</NavLink>
-                        <a className='nav-link' href="#">Xususiyat</a>
-                        <a className='nav-link login-link' href="#">Kirish</a>
-                        <a className='nav-link verification-link' href="#">Ro'yhatdan o'tish</a>
+                        <div className='nav-link-box'>
+                        <NavLink className="nav-link  nav-link1" to={"/workpage"} >U qanday ishlaydi</NavLink>
+                        <NavLink className="nav-link  nav-link2" to={"/featurepage"} >Xususiyat</NavLink>
+                        <NavLink className="nav-link  nav-link3" to={"/loginpage"} >Kirish</NavLink>
+                        <NavLink className="nav-link  nav-link4" to={"/registerpage"} >Ro'yhatdan o'tish</NavLink>
+                        </div>
                     </div>
                 </div>
             </div>
