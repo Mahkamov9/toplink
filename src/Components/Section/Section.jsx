@@ -2,6 +2,13 @@ import React from 'react';
 import './Section.css';
 
 import Ellipse from '../../Assets/Img/LooperGroup.png';
+import Twitter from '../../Assets/Img/Twitter.png';
+import MicStore from '../../Assets/Img/Microsoft Store.png';
+import MailRu from '../../Assets//Img/Mail.ru.png';
+import SberBank from '../../Assets/Img/Sberbank (Сбербанк).png';
+import MasterCard from '../../Assets/Img/MasterCard.png';
+import ShutterStock from '../../Assets/Img/Shutterstock.png';
+import Spotify from '../../Assets/Img/Spotify.png';
 
 export default function Section() {
   return (
@@ -16,8 +23,35 @@ export default function Section() {
                     <div className="section-left">
                         <div className='section-img-box'>
                             <img className='section-ellipse' src={Ellipse} alt="Ellipse" />
+                            <div className="section-png-box">
                             <div>
-                                <img src="" alt="" />
+                                <img className='section-png MicStore ' src={MicStore} alt="A" />
+                                {/* <p className='section-png ' >899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png mailru ' src={MailRu} alt="H" />
+                                {/* <p>899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png twitter' src={Twitter} alt="A" />
+                                {/* <p>899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png mastercard' src={MasterCard} alt="D" />
+                                {/* <p>899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png shut' src={ShutterStock} alt="J" />
+                                {/* <p>899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png spotify ' src={Spotify} alt="O" />
+                                {/* <p>899</p> */}
+                            </div>
+                            <div>
+                                <img className='section-png sber' src={SberBank} alt="N" />
+                                {/* <p>899</p> */}
+                            </div>
                             </div>
                         </div>
                     </div>

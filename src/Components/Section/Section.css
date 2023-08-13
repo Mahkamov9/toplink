@@ -32,3 +32,46 @@
     width: 716;
     height: 723px;
 }
+
+.section-img-box{
+    position: relative;
+}
+
+.section-png{
+    position: absolute;
+}
+
+.MicStore{
+    top: 8%;
+    left: 15%;
+}
+
+.mailru{
+    top: 7%;
+    left: 65%;
+}
+
+.twitter{
+    top: 29%;
+    left: 48%;
+}
+
+.mastercard{
+    top: 45%;
+    left: 10%;
+}
+
+.shut{
+    top: 58%;
+    left: 40%;
+}
+
+.spotify{
+    top: 60%;
+    left: 80%;
+}
+
+.sber{
+    left: 25%;
+    top: 70%;  
+}
