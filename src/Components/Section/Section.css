@@ -1,0 +1,34 @@
+.section{
+    width: 100%;
+    /* background-color: #F7F7FF; */
+}
+
+.section-box{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-subtext{
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+.section-text{
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 540px;
+}
+
+
+.section-ellipse{
+    width: 716;
+    height: 723px;
+}

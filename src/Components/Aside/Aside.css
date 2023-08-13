@@ -1,0 +1,67 @@
+.aside-box{
+    padding: 50px 0px;
+}
+
+.aside-text-box{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.aside-subtext{
+    font-size: 48px;
+    padding: 20px 0px;
+}
+
+.aside-text{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.input-box{
+    padding-top: 40px;
+}
+
+.aside-input{
+    border: 2px solid #673AB7;
+    width: 323px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.input-icon{
+    position: absolute;
+    transform: translate(50% , 35%);
+}
+
+
+
+
+.aside-figure-box{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-figure-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.figure-subtext{
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+.figure-text{
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 540px;
+}
