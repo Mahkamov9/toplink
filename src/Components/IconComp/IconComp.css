@@ -1,0 +1,165 @@
+.status {
+    width: 100%;
+    margin-top: 22px;
+}
+
+.status_flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status_img_box {
+    width: 580px;
+    height: 600px;
+    position: relative;
+}
+
+.status_pics {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status_pics span {
+    color: #000;
+    text-align: center;
+    /* font-family: Clarika Geometric; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.tw {
+    top: 45%;
+    left: 62%;
+    animation: box0 1.5s infinite alternate;
+}
+
+.ml {
+    top: 5%;
+    right: -15%;
+    animation: box1 1.8s infinite alternate;
+
+}
+
+.mk {
+    top: 5%;
+    left: 25%;
+    animation: box2 1.4s infinite alternate;
+
+}
+
+.mc {
+    top: 70%;
+    left: 15%;
+    animation: box3 1.3s infinite alternate;
+
+}
+
+.rd {
+    top: 90%;
+    left: 60%;
+    animation: box4 1.6s infinite alternate;
+
+}
+
+.spy {
+    top: 85%;
+    right: -15%;
+    animation: box5 1.5s infinite alternate;
+
+}
+
+.shb {
+    bottom: -23%;
+    left: 30%;
+    animation: box6 1.2s infinite alternate;
+
+}
+
+
+.status_picture {
+    width: 750px;
+}
+
+.status_title {
+    width: 500px;
+    color: #182F43;
+    /* font-family: Clarika Geometric; */
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.status_text {
+    color: #182F43;
+    /* font-family: Clarika Geometric; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+
+@keyframes box0 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box1 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box2 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box3 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box4 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box5 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes box6 {
+    0% {
+        transform: scale(.9);
+    } 100% {
+        transform: scale(1.1);
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './WorkAbout.css';
 
 import IphoneX from '../../Assets/Img/iPhoneX.png';
+import WorkPageImg from '../../Assets/Img/screen.png';
 
 export default function WorkAbout() {
   return (
@@ -35,6 +36,7 @@ export default function WorkAbout() {
                             <div className="work-bottom-text-box">
                                 <h1 className='workbottom-subtext'>Sizning havolalaringiz. Sizning kontentingiz.</h1>
                                 <p className='workbottom-text'>Har qanday platformadan havola qo'shing. Quyida bizning sevimlilarimizdan ba'zilari</p>
+                                <img className='workpageimg' src={WorkPageImg} alt="Picture" />
                             </div>
                     </div>
                 </div>

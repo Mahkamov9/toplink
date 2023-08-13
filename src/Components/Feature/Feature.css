@@ -1,0 +1,91 @@
+.all {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.all_flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: spa; */
+    flex-direction: column;
+}
+
+
+.all_page_title {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    /* font-family: Clarika Geometric; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.44px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.all_page_text {
+    width: 1110px;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    /* font-family: Clarika Geometric; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.22px;
+    margin-bottom: 80px;
+}
+
+
+.all_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.mg {
+    margin-top: 150px;
+}
+
+.all_card>img {
+    /* margin-right: 100px; */
+    padding: 0 50px;
+    animation: anim1 1.5s alternate infinite;
+}
+
+@keyframes anim1 {
+    0% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.all_card_title {
+    color: #182F43;
+    /* font-family: Clarika Geometric; */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+
+.all_card_desc {
+    color: #182F43;
+    width: 540px;
+    /* font-family: Clarika Geometric; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}

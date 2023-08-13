@@ -24,33 +24,33 @@ export default function Section() {
                         <div className='section-img-box'>
                             <img className='section-ellipse' src={Ellipse} alt="Ellipse" />
                             <div className="section-png-box">
-                            <div>
-                                <img className='section-png MicStore ' src={MicStore} alt="A" />
-                                {/* <p className='section-png ' >899</p> */}
+                            <div className='section-png MicStore '>
+                                <img src={MicStore} alt="A" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png mailru ' src={MailRu} alt="H" />
-                                {/* <p>899</p> */}
+                            <div className='section-png mailru'>
+                                <img src={MailRu} alt="H" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png twitter' src={Twitter} alt="A" />
-                                {/* <p>899</p> */}
+                            <div className='section-png twitter'>
+                                <img src={Twitter} alt="A" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png mastercard' src={MasterCard} alt="D" />
-                                {/* <p>899</p> */}
+                            <div className='section-png mastercard'>
+                                <img src={MasterCard} alt="D" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png shut' src={ShutterStock} alt="J" />
-                                {/* <p>899</p> */}
+                            <div className='section-png shut'>
+                                <img src={ShutterStock} alt="J" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png spotify ' src={Spotify} alt="O" />
-                                {/* <p>899</p> */}
+                            <div className='section-png spotify'>
+                                <img src={Spotify} alt="O" />
+                                <p>899</p>
                             </div>
-                            <div>
-                                <img className='section-png sber' src={SberBank} alt="N" />
-                                {/* <p>899</p> */}
+                            <div className='section-png sber'>
+                                <img  src={SberBank} alt="N" />
+                                <p>899</p>
                             </div>
                             </div>
                         </div>

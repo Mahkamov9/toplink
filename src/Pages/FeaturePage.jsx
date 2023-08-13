@@ -1,9 +1,10 @@
 import React from 'react';
+import Feature from '../Components/Feature/Feature';
 
 export default function FeaturePage() {
   return (
     <>
-        <h1>Feature page</h1>
+        <Feature/>
     </>
   )
 }
