@@ -42,6 +42,41 @@
     color: #673AB7;
 } */
 
+.nav-link1{
+    display: inline-block;
+    border: 2px solid #e8e9f1;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.nav-link1:hover{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    color: #673AB7;
+    transition: 0.2s;
+
+}
+
+
+
+.nav-link2{
+    display: inline-block;
+    border: 2px solid #e8e9f1;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.nav-link2:hover{
+    display: inline-block;
+    border: 2px solid #673AB7;
+    color: #673AB7;
+    transition: 0.2s;
+
+}
+
+
+
+
 .nav-link3{
     display: inline-block;
     border: 2px solid #673AB7;

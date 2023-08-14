@@ -11,8 +11,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Clarika Geometric;
+}
 
+@font-face {
+  font-family: Clarika Geometric;
+  src: url("../src/Assets/Fonts/Clarika\ Geometric\ Medium.ttf");
 }
 
 a{

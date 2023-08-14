@@ -2,6 +2,8 @@ import React from 'react';
 import './WorkAbout.css';
 
 import IphoneX from '../../Assets/Img/iPhoneX.png';
+import Iphone11 from '../../Assets/Img/iPhone11.png';
+import IphoneMoc from '../../Assets/Img/iPhoneMockup.png';
 import WorkPageImg from '../../Assets/Img/screen.png';
 
 export default function WorkAbout() {
@@ -23,11 +25,11 @@ export default function WorkAbout() {
                             <p className="work-list-text">Foydalanuvchi nomini tanlang, profilingizni sozlang va havolalaringizni qo'shing.</p>
                         </div>
                         <div className="work-list">
-                            <img src={IphoneX} alt="Iphone" />
+                            <img src={IphoneMoc} alt="Iphone" />
                             <p className='work-list-subtext'>Toplinkda hisobingizni yarating</p>
                             <p className="work-list-text">Foydalanuvchi nomini tanlang, profilingizni sozlang va havolalaringizni qo'shing.</p>
                         </div><div className="work-list">
-                            <img src={IphoneX} alt="Iphone" />
+                            <img src={Iphone11} alt="Iphone" />
                             <p className='work-list-subtext'>Toplinkda hisobingizni yarating</p>
                             <p className="work-list-text">Foydalanuvchi nomini tanlang, profilingizni sozlang va havolalaringizni qo'shing.</p>
                         </div>

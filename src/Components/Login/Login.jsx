@@ -1,6 +1,9 @@
 import React from 'react';
 import './Login.css';
 
+import Ellipse1 from '../../Assets/Img/Ellipse1.png';
+import Ellipse2 from '../../Assets/Img/Ellipse2.png';
+
 export default function Login() {
   return (
     <>
@@ -27,6 +30,8 @@ export default function Login() {
                     </div>
                 </div>
             </div>
+            <img className='login-ellipse1' src={Ellipse1} alt="1" />
+            <img className='login-ellipse2' src={Ellipse2} alt="2" />
         </div>
     </>
   )
